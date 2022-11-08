@@ -1,7 +1,7 @@
 
 param (
     $BreakValue,
-    $Delay,
+    [int]$Delay=10,
     $CodeBlock
 )
 
